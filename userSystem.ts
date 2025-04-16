@@ -72,4 +72,8 @@ for(let i in peopleList){
 }
 console.log(InactiveUsers(peopleList))
 
-//
+// Enums are more effective here than strings or numbers because they have type safety, prevent errors, and make code more readable, scalable, and maintainable.
+
+// Using read only protects your data by making accidental edits impossible, which keeps your code predictable and easy to debug
+
+// Scaling with dynamic roles would be possible by calling the data and using an alias instead of enum, where roles can be defined at runtime
